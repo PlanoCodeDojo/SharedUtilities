@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>nunitm</Title>
+      <Author>MA User</Author>
+      <Description>
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>nunitm</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>condition</ID>
+          <ToolTip>Put condition here</ToolTip>
+          <Default>condition</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>expectation</ID>
+          <ToolTip>Put what you want to assert here expectation</ToolTip>
+          <Default>expectation</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[        [Test]
+        public void when_$condition$_then_$expectation$()
+        {
+            //Arrange
+            $end$
+            //Act
+
+            //Assert
+
+        }]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
